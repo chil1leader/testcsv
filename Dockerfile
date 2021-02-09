@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
 # Set work directory
-WORKDIR /testx-main
+WORKDIR /testcsv-main
 
 # Install dependencies
 COPY Pipfile Pipfile.lock /testcsv-main/
