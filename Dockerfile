@@ -9,8 +9,8 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /testx-main
 
 # Install dependencies
-COPY Pipfile Pipfile.lock /testx-main/
+COPY Pipfile Pipfile.lock /testcsv-main/
 RUN pip install pipenv && pipenv install --system
 
 # Copy project
-COPY . /testx-main/
+COPY . /testcsv-main/
