@@ -5,7 +5,7 @@
 
 2)Выполнить команду запуска проекта: 
                       
-                      docker-compose up
+                      docker-compose up -d
 
 3)Выполнить миграции: 
 
