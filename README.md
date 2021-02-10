@@ -15,6 +15,6 @@
 
 Маршрутизация:
 
-1)http://localhost:8000/api/upload/ - Загрузка файла формата .csv для обработки
+1)http://localhost:8000/api/upload/ - Загрузка файла формата .csv для обработки. Выбрать файл 'deals.csv' для POST-запроса.
 
 2)http://localhost:8000/api/list/ - Выдача обработанных данных
